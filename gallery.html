@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <link rel="icon" href="image/logo-icon.jpg">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>VenueMenu - Gallery</title>
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -14,8 +17,8 @@
     <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="css/Main.css">
     <link rel="stylesheet" href="css/gallery.css">
+ 
 </head>
-
 <body>
 
   <section class="header">
@@ -24,20 +27,21 @@
         <div class="col-md-12">
           <div class="header-box">
             <div class="header-img">
-              <a class="" href="index.php" target="_self"><img class="header-logo" src="image/venuemenu-logo.png" alt=""></a>
+              <a class="" href="index.html" target="_self"><img class="header-logo" src="image/venuemenu-logo.png" alt=""></a>
             </div>
             <ul class="header-nav">
               <li class="header-item">
-                <a class="header-link" href="index.php" >Home</a>
+                <a class="header-link" href="index.html" >Home</a>
               </li>
               <li class="header-item">
-                <a class="header-link " href="about-us.php" >About Us</a>
+                <a class="header-link " href="about-us.html" >About Us</a>
+              </li>
+              
+              <li class="header-item">
+                <a class="header-link active" href="gallery.html">Gallery</a>
               </li>
               <li class="header-item">
-                <a class="header-link active" href="#">Gallery</a>
-              </li>
-              <li class="header-item">
-                <a class="header-link header-link-btn" href="login.php" id="open-form"><span>Profile</span></a>
+                <a class="header-link header-link-btn" href="#" id="open-form"><span> Log In / Sign Up</span></a>
               </li>
             </ul>
             
@@ -50,7 +54,7 @@
     </div>
   </section>
 
-<div style="height: 20px"></div>
+  <div style="height: 20px"></div>
 <section class="container">
   <div class="wrapper">
     <div class="gallery">
@@ -75,10 +79,32 @@
   </div>
   <div class="shadow"></div>
 </section>
-<div style="height: 40px"></div>
-
-<?php include "footer.php"; ?>
-
+ 
+ <section class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-img">
+          <img src="image/venuemenu-logo.png" alt="">
+        </div>
+        <div class="link-list">
+          <ul>
+            <li><a class="" href="index.html" >Home</a></li>
+            <li><a class="" href="about-us.html" >About Us</a></li>
+            <li class=""><a class="" href="#">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="social-links">
+          <ul>
+            <li><a href="https://www.facebook.com/Venuemenu-107915664800621" target="_blank"><img src="image/facebook.png" alt=""></a></li>
+            <li><a href="https://www.instagram.com/venuemenu.np" target="_blank"><img src="image/instagram.png" alt=""></a></li>
+          </ul>
+        </div>
+        <p class="copy-right">All rights reserved 2021 © VenueMenu</p>
+      </div>
+    </div>
+  </div>
+</section>
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>

@@ -2,19 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <link rel="icon" href="image/logo-icon.jpg">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>VenueMenu - Get the best venue for your event</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="css/Main.css">
 </head>
-
 <body>
+
+  <!--Header-->
 
 <section class="header">
   <div class="container">
@@ -22,21 +25,21 @@
       <div class="col-md-12">
         <div class="header-box">
           <div class="header-img">
-            <a class="" href="index.php" target="_self"><img class="header-logo" src="image/venuemenu-logo.png" alt=""></a>
+            <a class="" href="index.html" target="_self"><img class="header-logo" src="image/venuemenu-logo.png" alt=""></a>
           </div>
-
           <ul class="header-nav">
             <li class="header-item">
               <a class="header-link active" href="#" >Home</a>
             </li>
             <li class="header-item">
-              <a class="header-link " href="about-us.php" >About Us</a>
+              <a class="header-link " href="about-us.html" >About Us</a>
+            </li>
+            
+            <li class="header-item">
+              <a class="header-link " href="gallery.html">Gallery</a>
             </li>
             <li class="header-item">
-              <a class="header-link " href="gallery.php">Gallery</a>
-            </li>
-            <li class="header-item">
-              <a class="header-link header-link-btn" href="login.php" id="open-form"><span>Profile</span></a>
+              <a class="header-link header-link-btn" href="#" id="open-form"><span> Log In / Sign Up</span></a>
             </li>
           </ul>
           
@@ -49,17 +52,22 @@
   </div>
 </section>
 
+<!-- Home Page Banner -->
+
 <section class="banner" style="background-image: url(image/Bg_image.jpg);">
   <div class="container">
     <div class="row">
       <div class="col-md-9">
-        <h1 class="head">Book venue at VenueMenu</h1>
-        <a class="para2 no-link-banner" href="login.php">Book Now</a>
+        <h1 class="head">Book venue with us at VenueMenu</h1>
+        <a class="para2 no-link-banner" href="">Book Now</a>
       </div>
     </div>
   </div>
 </section>
 
+<!--Our Services Sections-->
+
+<!--Foods Service Section-->
 <section class="set" id='services'>
   <div class="container">
     <div class="row">
@@ -68,24 +76,29 @@
       </div>
       <div class="col-md-6">
         <div class="set-info">
-          <p class="number">Food</p>
-          <p class="head">We serve the best food to meet your expectation</p>
+          <h1 class="number">Food</h1>
+          <h2 class="head">We serve the best food to meet your expectation</h2>
           <p class="para">Conclusion of every event is the food. So that we provide the best hygenic and organic foods. </p>
+          
         </div>
+      </div>
+      <div class="col-md-12">
+      
       </div>
     </div>
   </div>
 </section>
 
 <hr>
-
+<!--Hospitality Service Section-->
 <section class="set">
   <div class="container">
     <div class="row">
+      
       <div class="col-md-6 order-md-0 order-1">
         <div class="set-info">
-          <p class="number">Hospitality</p>
-          <p class="head"> "Atithi Devo: Bhava" is our Mantra </p>
+          <h1 class="number">Hospitality</h1>
+          <h2 class="head"> "Atithi Devo: Bhava" is our Mantra </h2>
           <p class="para">We love our Mantra and we do what we love. Our reality always starts from your service.</p>
         </div>
       </div>
@@ -97,7 +110,7 @@
 </section>
 
 <hr>
-
+<!--Luxury Service Section-->
 <section class="set" >
   <div class="container">
     <div class="row">
@@ -106,41 +119,20 @@
       </div>
       <div class="col-md-6">
         <div class="set-info">
-          <p class="number">Luxury</p>
-          <p class="head">Our designs and management makes you feel better</p>
+          <h1 class="number">Luxury</h1>
+          <h2 class="head">Our designs and management makes you feel better</h2>
           <p class="para">Best quality of management gives you the high level of luxurious feel.</p>
+          
         </div>
+      </div>
+      <div class="col-md-12">
+      
       </div>
     </div>
   </div>
 </section>
 
-<hr>
-
-<section>
-  <div class="container  d-flex justify-content-center" style="height: 300px;">
-    <div style="width:450px;" class=''> 
-    <h2 class="text-center mt-4 mb-5" >Check Availability</h2>
-      <form action="" method="POST" id="form-available">
-        <div class="row">
-          <div class="col-3 text-center mt-2">
-            <label for="">Date:</label>
-          </div>
-          <div class="col"> 
-            <input type="date" class="form-control" name="date" id="date">
-            <div id="invaliddate" class="text-danger"></div>
-          </div>
-        </div>
-        <div class="row mt-4">
-          <div class="col d-flex justify-content-end">
-            <input type="submit" value="Check" class="btn btn-primary">
-          </div>
-        </div>
-      </form>
-      <div id="alertcheck" class="text-center mt-4"></div>
-    </div>
-  </div>
-</section>
+<!--Why with us? -->
 
 <section class="why-with-us" id='why-with-us' style="background-image: url('image/Bg_images.jpg');">
   <div class="container">
@@ -148,10 +140,11 @@
       <div class="col-md-12">
         <div class=" why-us">
           <h1 class="why-us-text">Why with us?</h1>
-          <p class="info">Our venues and event management team have the best experience in related fields by serving the quality 
-          services over quantity. We have the best composition of good and hygienic food, best hospitality, and luxurious infrastructures. 
-          We provide a real time booking system for any kind of event at a reasonable price.</p>
+          <p class="info">Get the best venue for your event</p>
+          <p class="info">Get the best venue for your event Get the best venue for your event</p>
+          <p class="info">Get the best venue for your event Get the best venue for your event</p>
         </div>
+        
       </div>
     </div>
   </div>
@@ -165,84 +158,53 @@
     <input type="radio" name="slider" title="slide1" class="slider__nav"/>
     <input type="radio" name="slider" title="slide2" class="slider__nav"/>
     <input type="radio" name="slider" title="slide3" class="slider__nav"/>
-    
     <div class="slider__inner">
       <div class="slider__contents">
         <h2 class="slider__caption">Ishwor Shrestha</h2>
         <p class="slider__txt">Get the best venue for your event Get the best venue for your event,Get the best venue for your event !</p>
       </div>
       <div class="slider__contents">
-        <h2 class="slider__caption">Manish Chaulagain</h2>
+        <h2 class="slider__caption">Ishwor Shrestha</h2>
         <p class="slider__txt">Get the best venue for your event Get the best venue for your event,Get the best venue for your event !</p>
       </div>
       <div class="slider__contents">
-        <h2 class="slider__caption">Anish Kayastha</h2>
+        <h2 class="slider__caption">Ishwor Shrestha</h2>
         <p class="slider__txt">Get the best venue for your event Get the best venue for your event,Get the best venue for your event !</p>
       </div>
       <div class="slider__contents">
-        <h2 class="slider__caption">Ajai Shakya</h2>
+        <h2 class="slider__caption">Ishwor Shrestha</h2>
         <p class="slider__txt">Get the best venue for your event Get the best venue for your event,Get the best venue for your event !</p>
       </div>
     </div>
   </div>
 
-<!--Testomonials Ends-->
+<!--Footer-->
 
-<?php include "footer.php"; ?>
-
-<script>
-  $(document).ready(function(){
-    $("#form-available").submit(function(e){
-      e.preventDefault()
-      
-      function valid()
-      {
-        var date = document.getElementById("date").value;
-
-        //For Date Variable
-        var insertedDate = new Date(date).getTime();
-        var currentDate = new Date().getTime();
-
-        // Reset alert Values
-        document.getElementById("invaliddate").innerHTML="";
-
-        // Date Validation
-        if(date=="")
-        {
-            document.getElementById("invaliddate").innerHTML="Date is empty";
-            document.getElementById("date").setAttribute("class","form-control border border-danger");
-            return false;
-        }
-        else if(insertedDate<currentDate)
-        {
-            document.getElementById("invaliddate").innerHTML="Booking should be made from next day";
-            document.getElementById("date").setAttribute("class","form-control border border-danger");
-            return false;
-        }
-        else{
-            document.getElementById("date").setAttribute("class","form-control border border-success");
-            return true;
-        }
-      }
-
-      if(valid())
-      {
-        var formValues = $(this).serialize();
-        $.ajax({
-            type: 'post',
-            url: 'available.php',
-            data: {val: formValues},
-            success: function(data){
-                $("#alertcheck").html(data);
-                $("#alertcheckk").fadeOut(3000);
-            }
-        });
-      }
-
-    });
-  });
-</script>
-
+<section class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-img">
+          <img src="image/venuemenu-logo.png" alt="">
+        </div>
+        <div class="link-list">
+          <ul>
+            <li><a class="" href="#" >Home</a></li>
+            <li><a class="" href="about-us.html" >About Us</a></li>
+            <li class=""><a class="" href="gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="social-links">
+          <ul>
+             <li><a href="https://www.facebook.com/Venuemenu-107915664800621" target="_blank"><img src="image/facebook.png" alt=""></a></li>
+            <li><a href="https://www.instagram.com/venuemenu.np" target="_blank"><img src="image/instagram.png" alt=""></a></li>
+          </ul>
+        </div>
+        <p class="copy-right">All rights reserved 2021 © VenueMenu</p>
+      </div>
+    </div>
+  </div>
+</section>
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
